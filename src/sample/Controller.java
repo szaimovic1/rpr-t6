@@ -1,6 +1,5 @@
 package ba.unsa.etf.rpr.tutorijal06;
 
-
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
