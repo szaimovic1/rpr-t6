@@ -1,0 +1,6 @@
+.poljeispravno {
+        -fx-control-inner-background: greenyellow;
+    }
+.poljeneispravno {
+        -fx-control-inner-background: red;
+    }
