@@ -5,14 +5,16 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import static javafx.scene.control.PopupControl.USE_COMPUTED_SIZE;
 
-public class Main extends Application {
+public class Formular extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 700, 275));
+        primaryStage.setTitle("Formular za unos studenta");
+        primaryStage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

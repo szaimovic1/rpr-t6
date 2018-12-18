@@ -1,0 +1,21 @@
+#glavni{
+    -fx-background-color: lemonchiffon;
+}
+#prviDio {
+    -fx-font-weight: bold;
+}
+#drugiDio {
+    -fx-font-weight: bold;
+}
+#treciDio {
+    -fx-font-weight: bold;
+}
+#cetvrtiDio {
+    -fx-font-weight: bold;
+}
+.poljeispravno {
+        -fx-control-inner-background: greenyellow;
+    }
+.poljeneispravno {
+        -fx-control-inner-background: red;
+    }
